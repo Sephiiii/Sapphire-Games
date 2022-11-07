@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sapphire Games</title>
+    <!---Fav Icon-->
+    <link rel="shortcut icon" href="img/Iconlogo.png" type="image/x-icon">
+    <!--Link to Css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Swiper css file link -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+
+
+</head>
+<body>
+
+    <!-- Custom Scroll Bar -->
+    <div class="progress">
+        <div class="progress-bar" id="scroll-bar"></div>
+    </div>
+
+
+
+
+    <!--HEADER-->
+    <header>
+        <!--Nav-->
+        <div class="nav container">
+            <!----LOGO-->
+            <a href="index.html" class="logo">Sapphire<span>Games</span> </a>
+            <!--Nav icons-->
+            <div class="nav-icons">
+                <div class="Search">
+                    <input type="text" placeholder="Search...">
+                    <a href="#">
+                    <i class='bx bx-search-alt-2'></i>
+                    </a>
+                </div>
+                <i class='bx bx-bell bx-tada' id="bell-icon"><span></span></i>
+                <div class="menu-icon">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+            <!-- Menu -->
+            <div class="menu">
+                <img src="my img/valorantmenu.png" alt="">
+                <div class="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#trending">New Releases</a></li>
+                    <li><a href="#new">Games</a></li>
+                    <li><a href="https://discord.gg/ymVcdfpPMK" target="_blank">Contact Us</a></li>
+                    <li><a href="#About">About</a></li>
+                </div>
+            </div>
+            <!-- Notification -->
+            <div class="notification">
+                <div class="notification-box">
+                    <i class='bx bxs-check-circle bx-tada bx-rotate-90' ></i>
+                    <p>Congratulation, Your game download succesfully.</p>
+                </div>
+                <div class="notification-box box-color">
+                    <i class='bx bxs-x-circle' ></i>
+                    <p>Could not apply changes.</p>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+    </header>
+
+    <!-- Home section start-->
+    <section class="home container" id="home">
+        <img src="my img/WatchDogs2.png" alt="">
+        <div class="home-text">
+            <h1>HACKING IS <br> YOUR WEAPON </h1>
+            <a href="Watchdogs2DL.html" class="btn">Available Now</a>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Home section end-->
+    <!-- New Released Start -->
+    <section class="trending container" id="trending">
+        <div class="heading">
+            <i class='bx bxs-flame'></i>
+            <h2>New Released Games</h2>
+        </div>
+        <!-- Content -->
+        <div class="trending-content swiper">
+            <div class="swiper-wrapper">
+                <!-- Slide 1 -->
+                <div class="swiper-slide"> 
+                    <div class="box">
+                        <img src="my img/WatchDogs2.jpg">
+                        <div class="box-text">
+                            <h2>Watchdogs 2</h2>
+                            <h3>Action</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class='bx bxs-star' ></i>
+                                    <span>8.5</span>
+                            </div>
+                            <a href="Watchdogs2DL.html" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
+                        </div>
+                    </div>
+                </div>
+        
+              </div>
+               <!-- Slide 2 -->
+               <div class="swiper-slide"> 
+                <div class="box">
+                    <img src="my img/Unpacking.png">
+                    <div class="box-text">
+                        <h2>Unpacking</h2>
+                        <h3>Puzzle</h3>
+                        <div class="rating-download">
+                            <div class="rating">
+                                <i class='bx bxs-star' ></i>
+                                <span>7.5</span>
+                        </div>
+                        <a href="UnpackingDl.html" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
+                    </div>
+                </div>
+            </div>
+    
+          </div>
+           
+          <!-- Slide 3 -->
+           <div class="swiper-slide"> 
+            <div class="box">
+                <img src="my img/Undertale.jpg">
+                <div class="box-text">
+                    <h2>Undertale</h2>
+                    <h3>Rpg</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class='bx bxs-star' ></i>
+                            <span>9.9</span>
+                    </div>
+                    <a href="Undertale.html" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
+                </div>
+            </div>
+        </div>
+
+      </div>
+
+       <!-- Slide 4 -->
+       <div class="swiper-slide"> 
+        <div class="box">
+            <img src="my img/Sekiro.jpg">
+            <div class="box-text">
+                <h2>Sekiro</h2>
+                <h3>RPG</h3>
+                <div class="rating-download">
+                    <div class="rating">
+                        <i class='bx bxs-star' ></i>
+                        <span>9.5</span>
+                </div>
+                <a href="https://store.steampowered.com/app/814380/Sekiro_Shadows_Die_Twice__GOTY_Edition/" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
+            </div>
+        </div>
+    </div>
+
+  </div>
+
+   <!-- Slide 5 -->
+   <div class="swiper-slide"> 
+    <div class="box">
+        <img src="my img/Spidermanremas.jpeg">
+        <div class="box-text">
+            <h2>Marvel's Spider-Man</h2>
+            <h3>Action</h3>
+            <div class="rating-download">
+                <div class="rating">
+                    <i class='bx bxs-star' ></i>
+                    <span>9.7</span>
+            </div>
+            <a href="https://store.steampowered.com/app/1817070/Marvels_SpiderMan_Remastered/" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
+        </div>
+    </div>
+</div>
+
+</div>
+  <!-- Slide 6 -->
+  <div class="swiper-slide"> 
+    <div class="box">
+        <img src="my img/Tekken_7.jpg">
+        <div class="box-text">
+            <h2>Tekken 7</h2>
+            <h3>Fighting</h3>
+            <div class="rating-download">
+                <div class="rating">
+                    <i class='bx bxs-star' ></i>
+                    <span>9.5</span>
+            </div>
+            <a href="https://store.steampowered.com/app/389730/TEKKEN_7/" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
+        </div>
+    </div>
+</div>
+
+</div>
+
+  <!-- Slide 7 -->
+  <div class="swiper-slide"> 
+    <div class="box">
+        <img src="my img/NFS.png">
+        <div class="box-text">
+            <h2>Need For Speed Heat</h2>
+            <h3>Racing</h3>
+            <div class="rating-download">
+                <div class="rating">
+                    <i class='bx bxs-star' ></i>
+                    <span>9.6</span>
+            </div>
+            <a href="https://store.steampowered.com/app/1222680/Need_for_Speed_Heat/" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
+        </div>
+    </div>
+</div>
+
+</div>
+
+  <!-- Slide 8 -->
+  <div class="swiper-slide"> 
+    <div class="box">
+        <img src="img/trending8.png">
+        <div class="box-text">
+            <h2>Resident Evil Village</h2>
+            <h3>Horror</h3>
+            <div class="rating-download">
+                <div class="rating">
+                    <i class='bx bxs-star' ></i>
+                    <span>9.4</span>
+            </div>
+            <a href="https://store.steampowered.com/app/1196590/Resident_Evil_Village/" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
+        </div>
+    </div>
+</div>
+
+</div>
+
+
+              
+
+        </div>
+    </section>
+      <!-- New Released End -->
+      
+      
+      <!-- Games Start -->
+      <section class="new container" id="new">
+        <div class="heading">
+            <i class='bx bx-joystick'></i>
+            <h2>Games</h2>
+        </div>
+        <!-- Content -->
+        <div class="new-content">
+            <!-- Box 1 -->
+            <div class="box">
+                <img src="my img/Warthunder.jpg" alt="">
+                <div class="box-text">
+                    <h2>War Thunder</h2>
+                    <h3>Action</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class='bx bxs-star' ></i>
+                            <span>4.7</span>
+                    </div>
+                    <a href="download.html" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
+                </div>
+            </div>
+        </div>
+
+            <!-- Box 2 -->
+            <div class="box">
+                <img src="my img/Unpacking.png">
+                <div class="box-text">
+                    <h2>Unpacking</h2>
+                    <h3>Puzzle</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class='bx bxs-star' ></i>
+                            <span>8.5</span>
+                    </div>
+                    <a href="UnpackingDl.html" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Box 3 -->
+        <div class="box">
+            <img src="my img/WatchDogs2.jpg">
+            <div class="box-text">
+                <h2>Watch Dogs 2</h2>
+                <h3>Action</h3>
+                <div class="rating-download">
+                    <div class="rating">
+                        <i class='bx bxs-star' ></i>
+                        <span>8.5</span>
+                </div>
+                <a href="Watchdogs2DL.html" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Box 4 -->
+    <div class="box">
+        <img src="my img/carx.jpg">
+        <div class="box-text">
+            <h2>Car X</h2>
+            <h3>Racing</h3>
+            <div class="rating-download">
+                <div class="rating">
+                    <i class='bx bxs-star' ></i>
+                    <span>4.7</span>
+            </div>
+            <a href="https://store.steampowered.com/app/635260/CarX_Drift_Racing_Online/" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
+        </div>
+    </div>
+</div>
+
+<!-- Box 5 -->
+<div class="box">
+    <img src="my img/gEARCLUB.jpg">
+    <div class="box-text">
+        <h2>Gear Club</h2>
+        <h3>Racing</h3>
+        <div class="rating-download">
+            <div class="rating">
+                <i class='bx bxs-star' ></i>
+                <span>4.7</span>
+        </div>
+        <a href="https://gear.club" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
+    </div>
+</div>
+</div>
+
+<!-- Box 6 -->
+<div class="box">
+    <img src="my img/Jumpforce.jpg">
+    <div class="box-text">
+        <h2>Jump Force</h2>
+        <h3>Action</h3>
+        <div class="rating-download">
+            <div class="rating">
+                <i class='bx bxs-star' ></i>
+                <span>4.7</span>
+        </div>
+        <a href="https://www.bandainamcoent.com/games/jump-force" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
+    </div>
+</div>
+</div>
+
+<!-- Box 7 -->
+<div class="box">
+    <img src="my img/Dragon_Ball_Z_Kakarot_logo.png">
+    <div class="box-text">
+        <h2>Dragon Ball Z</h2>
+        <h3>Action</h3>
+        <div class="rating-download">
+            <div class="rating">
+                <i class='bx bxs-star' ></i>
+                <span>4.7</span>
+        </div>
+        <a href="https://store.steampowered.com/app/851850/DRAGON_BALL_Z_KAKAROT/" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
+    </div>
+</div>
+</div>
+
+<!-- Box 8 -->
+<div class="box">
+    <img src="my img/Red_Dead_Redemption_II.jpg">
+    <div class="box-text">
+        <h2>Red Dead Redemption 2</h2>
+        <h3>Action</h3>
+        <div class="rating-download">
+            <div class="rating">
+                <i class='bx bxs-star' ></i>
+                <span>4.7</span>
+        </div>
+        <a href="https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
+    </div>
+</div>
+</div>
+
+
+ </div>
+ 
+ <div class="next-page">
+    <a href="#">Next Page</a>
+ </div>
+      </section>
+
+
+      <!-- Games End -->
+
+      <!-- Copyright -->
+
+      <div class="copyright container">
+        <a href="#" class="logo">Sapphire<span>Games</span></a>
+        <p>&#169; Sapphire All Right Reserved</p>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- Link to swiper file -->
+      <script src="js/swiper-bundle.min.js"></script>
+    <!--link to js-->
+    <script src="js/main.js"></script>
+</body>
+</html>

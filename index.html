@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="img/Iconlogo.png" type="image/x-icon">
     <!--Link to Css-->
     <link rel="stylesheet" href="css/style.css">
-    <!--box icons-->
+    <!--box icons--> 
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- Swiper css file link -->
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
@@ -35,13 +35,11 @@
             <a href="index.html" class="logo">Sapphire<span>Games</span> </a>
             <!--Nav icons-->
             <div class="nav-icons">
-                <div class="Search">
-                    <input type="text" placeholder="Search...">
-                    <a href="#">
-                    <i class='bx bx-search-alt-2'></i>
-                    </a>
+                <div class="search-box">
+
+                    <input class="search-txt" type="text" name="" placeholder="Search">
+                    
                 </div>
-                <i class='bx bx-bell bx-tada' id="bell-icon"><span></span></i>
                 <div class="menu-icon">
                     <div class="line1"></div>
                     <div class="line2"></div>
@@ -50,7 +48,9 @@
             </div>
             <!-- Menu -->
             <div class="menu">
-                <img src="my img/valorantmenu.png" alt="">
+            <a class="menuimg" href="Watchdogs2DL.html">
+                <img src="my img/Logo_dedsec_white.png" alt="">
+            </a>
                 <div class="navbar">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="#trending">New Releases</a></li>
@@ -59,18 +59,7 @@
                     <li><a href="#About">About</a></li>
                 </div>
             </div>
-            <!-- Notification -->
-            <div class="notification">
-                <div class="notification-box">
-                    <i class='bx bxs-check-circle bx-tada bx-rotate-90' ></i>
-                    <p>Congratulation, Your game download succesfully.</p>
-                </div>
-                <div class="notification-box box-color">
-                    <i class='bx bxs-x-circle' ></i>
-                    <p>Could not apply changes.</p>
-                </div>
-            </div>
-
+            
 
 
 
@@ -81,7 +70,7 @@
 
     <!-- Home section start-->
     <section class="home container" id="home">
-        <img src="my img/WatchDogs2.png" alt="">
+        <img src="my img/WatchDogs2.png">
         <div class="home-text">
             <h1>HACKING IS <br> YOUR WEAPON </h1>
             <a href="Watchdogs2DL.html" class="btn">Available Now</a>
@@ -105,16 +94,17 @@
                 <!-- Slide 1 -->
                 <div class="swiper-slide"> 
                     <div class="box">
-                        <img src="my img/WatchDogs2.jpg">
+                        <a href="Watchdogs2DL.html">
+                    <video id="thumb" src="thumbs/WatchDogs2thumb.mp4" 
+                    loop onmouseover="this.play();" onmouseout="this.load();" 
+                        poster="Covers/WatchDogs2cover.jpg" muted>
+                    </video>
+                </a>
+
                         <div class="box-text">
-                            <h2>Watchdogs 2</h2>
-                            <h3>Action</h3>
                             <div class="rating-download">
                                 <div class="rating">
-                                    <i class='bx bxs-star' ></i>
-                                    <span>8.5</span>
                             </div>
-                            <a href="Watchdogs2DL.html" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
                         </div>
                     </div>
                 </div>
@@ -123,16 +113,16 @@
                <!-- Slide 2 -->
                <div class="swiper-slide"> 
                 <div class="box">
-                    <img src="my img/Unpacking.png">
+                    <a href="UnpackingDl.html">
+                    <video id="thumb" src="thumbs/unpackingthumb.mp4" 
+                    loop onmouseover="this.play();" onmouseout="this.load();" 
+                        poster="Covers/Unpackingcover.png" muted>
+                    </video>
                     <div class="box-text">
-                        <h2>Unpacking</h2>
-                        <h3>Puzzle</h3>
                         <div class="rating-download">
                             <div class="rating">
-                                <i class='bx bxs-star' ></i>
-                                <span>7.5</span>
                         </div>
-                        <a href="UnpackingDl.html" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
+                    </a>
                     </div>
                 </div>
             </div>
@@ -142,16 +132,16 @@
           <!-- Slide 3 -->
            <div class="swiper-slide"> 
             <div class="box">
-                <img src="my img/Undertale.jpg">
+                <a href="Undertale.html">
+                <video id="thumb" src="thumbs/Undertalethumb.mp4" 
+                    loop onmouseover="this.play();" onmouseout="this.load();" 
+                        poster="Covers/Undertalecover.jpg" muted>
+                    </video>
                 <div class="box-text">
-                    <h2>Undertale</h2>
-                    <h3>Rpg</h3>
                     <div class="rating-download">
                         <div class="rating">
-                            <i class='bx bxs-star' ></i>
-                            <span>9.9</span>
                     </div>
-                    <a href="Undertale.html" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
+                </a>
                 </div>
             </div>
         </div>
@@ -161,16 +151,16 @@
        <!-- Slide 4 -->
        <div class="swiper-slide"> 
         <div class="box">
-            <img src="my img/Sekiro.jpg">
+            <a href="https://store.steampowered.com/app/814380/Sekiro_Shadows_Die_Twice__GOTY_Edition/">
+            <video id="thumb" src="thumbs/Sekirothumb.mp4" 
+                    loop onmouseover="this.play();" onmouseout="this.load();" 
+                        poster="Covers/Sekirocover.jpg" muted>
+            </video>
             <div class="box-text">
-                <h2>Sekiro</h2>
-                <h3>RPG</h3>
                 <div class="rating-download">
                     <div class="rating">
-                        <i class='bx bxs-star' ></i>
-                        <span>9.5</span>
                 </div>
-                <a href="https://store.steampowered.com/app/814380/Sekiro_Shadows_Die_Twice__GOTY_Edition/" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
+            </a>
             </div>
         </div>
     </div>
@@ -180,34 +170,36 @@
    <!-- Slide 5 -->
    <div class="swiper-slide"> 
     <div class="box">
-        <img src="my img/Spidermanremas.jpeg">
+        <a href="https://store.steampowered.com/app/1817070/Marvels_SpiderMan_Remastered/">
+        <video id="thumb" src="thumbs/SpidermanThumb.mp4" 
+                    loop onmouseover="this.play();" onmouseout="this.load();" 
+                    poster="Covers/Spidermanremascover.jpeg" muted>
+        </video>
+
         <div class="box-text">
-            <h2>Marvel's Spider-Man</h2>
-            <h3>Action</h3>
             <div class="rating-download">
                 <div class="rating">
-                    <i class='bx bxs-star' ></i>
-                    <span>9.7</span>
             </div>
-            <a href="https://store.steampowered.com/app/1817070/Marvels_SpiderMan_Remastered/" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
+        </a>
         </div>
     </div>
 </div>
 
 </div>
+
   <!-- Slide 6 -->
   <div class="swiper-slide"> 
     <div class="box">
-        <img src="my img/Tekken_7.jpg">
+        <a href="https://store.steampowered.com/app/389730/TEKKEN_7/"></a>
+        <video id="thumb" src="thumbs/Tekken7thumb.mp4" 
+             loop onmouseover="this.play();" onmouseout="this.load();" 
+                 poster="Covers/Tekken_7cover.jpg" muted>
+        </video>
         <div class="box-text">
-            <h2>Tekken 7</h2>
-            <h3>Fighting</h3>
-            <div class="rating-download">
+           <div class="rating-download">
                 <div class="rating">
-                    <i class='bx bxs-star' ></i>
-                    <span>9.5</span>
             </div>
-            <a href="https://store.steampowered.com/app/389730/TEKKEN_7/" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
+            </a>
         </div>
     </div>
 </div>
@@ -217,16 +209,16 @@
   <!-- Slide 7 -->
   <div class="swiper-slide"> 
     <div class="box">
-        <img src="my img/NFS.png">
+        <a href="https://store.steampowered.com/app/1222680/Need_for_Speed_Heat/">
+        <video id="thumb" src="thumbs/NfsHeatthumbmp4.mp4" 
+                    loop onmouseover="this.play();" onmouseout="this.load();" 
+                        poster="Covers/NFScover.png" muted>
+        </video>
         <div class="box-text">
-            <h2>Need For Speed Heat</h2>
-            <h3>Racing</h3>
             <div class="rating-download">
                 <div class="rating">
-                    <i class='bx bxs-star' ></i>
-                    <span>9.6</span>
             </div>
-            <a href="https://store.steampowered.com/app/1222680/Need_for_Speed_Heat/" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
+        </a>
         </div>
     </div>
 </div>
@@ -236,16 +228,16 @@
   <!-- Slide 8 -->
   <div class="swiper-slide"> 
     <div class="box">
-        <img src="img/trending8.png">
+        <a href="https://store.steampowered.com/app/1196590/Resident_Evil_Village/">
+        <video id="thumb" src="thumbs/Sifuthumb.mp4" 
+                    loop onmouseover="this.play();" onmouseout="this.load();" 
+                        poster="Covers/Sifucover.jpg" muted>
+        </video>
         <div class="box-text">
-            <h2>Resident Evil Village</h2>
-            <h3>Horror</h3>
             <div class="rating-download">
                 <div class="rating">
-                    <i class='bx bxs-star' ></i>
-                    <span>9.4</span>
             </div>
-            <a href="https://store.steampowered.com/app/1196590/Resident_Evil_Village/" class="box-btn"><i class='bx bx-down-arrow-alt' ></i></a>
+        </a>
         </div>
     </div>
 </div>
@@ -270,9 +262,12 @@
         <div class="new-content">
             <!-- Box 1 -->
             <div class="box">
-                <img src="my img/Warthunder.jpg" alt="">
+                <video id="thumb" src="thumbs/cyberpunkthumb.mp4" 
+                    loop onmouseover="this.play();" onmouseout="this.load();" 
+                        poster="Covers/Cyberpunkcover.jpg" muted>
+                </video>
                 <div class="box-text">
-                    <h2>War Thunder</h2>
+                    <h2>Cyberpunk</h2>
                     <h3>Action</h3>
                     <div class="rating-download">
                         <div class="rating">
@@ -286,10 +281,13 @@
 
             <!-- Box 2 -->
             <div class="box">
-                <img src="my img/Unpacking.png">
+                <video id="thumb" src="thumbs/milesthumb.mp4" 
+                    loop onmouseover="this.play();" onmouseout="this.load();" 
+                        poster="Covers/Spidermanmilescover.png" muted>
+                </video>
                 <div class="box-text">
-                    <h2>Unpacking</h2>
-                    <h3>Puzzle</h3>
+                    <h2>Spider Man Miles Morales</h2>
+                    <h3>Action</h3>
                     <div class="rating-download">
                         <div class="rating">
                             <i class='bx bxs-star' ></i>
@@ -302,9 +300,12 @@
 
         <!-- Box 3 -->
         <div class="box">
-            <img src="my img/WatchDogs2.jpg">
+            <video id="thumb" src="thumbs/ghostwirethumb.mp4" 
+            loop onmouseover="this.play();" onmouseout="this.load();" 
+                poster="Covers/GhostwireTokyocover.png" muted>
+            </video>
             <div class="box-text">
-                <h2>Watch Dogs 2</h2>
+                <h2>Ghostwire Tokyo</h2>
                 <h3>Action</h3>
                 <div class="rating-download">
                     <div class="rating">
@@ -318,10 +319,13 @@
 
     <!-- Box 4 -->
     <div class="box">
-        <img src="my img/carx.jpg">
+        <video id="thumb" src="thumbs/gotgthumb.mp4" 
+            loop onmouseover="this.play();" onmouseout="this.load();" 
+                poster="Covers/gotgcover.jpg" muted>
+            </video>
         <div class="box-text">
-            <h2>Car X</h2>
-            <h3>Racing</h3>
+            <h2>Guardians of the galaxy</h2>
+            <h3>Action</h3>
             <div class="rating-download">
                 <div class="rating">
                     <i class='bx bxs-star' ></i>
@@ -334,10 +338,13 @@
 
 <!-- Box 5 -->
 <div class="box">
-    <img src="my img/gEARCLUB.jpg">
+    <video id="thumb" src="thumbs/gothamknightsthumb.mp4" 
+    loop onmouseover="this.play();" onmouseout="this.load();" 
+        poster="Covers/gknightscover.jpg" muted>
+    </video>
     <div class="box-text">
-        <h2>Gear Club</h2>
-        <h3>Racing</h3>
+        <h2>Gotham Knights</h2>
+        <h3>Action</h3>
         <div class="rating-download">
             <div class="rating">
                 <i class='bx bxs-star' ></i>
@@ -350,9 +357,12 @@
 
 <!-- Box 6 -->
 <div class="box">
-    <img src="my img/Jumpforce.jpg">
+    <video id="thumb" src="thumbs/saintrowsthumb.mp4" 
+    loop onmouseover="this.play();" onmouseout="this.load();" 
+        poster="Covers/Saintrowscover.jpeg" muted>
+    </video>
     <div class="box-text">
-        <h2>Jump Force</h2>
+        <h2>Saint Rows</h2>
         <h3>Action</h3>
         <div class="rating-download">
             <div class="rating">
@@ -366,9 +376,12 @@
 
 <!-- Box 7 -->
 <div class="box">
-    <img src="my img/Dragon_Ball_Z_Kakarot_logo.png">
+    <video id="thumb" src="thumbs/watchdogslegionthumb.mp4" 
+    loop onmouseover="this.play();" onmouseout="this.load();" 
+        poster="Covers/Watchdogslegioncover.png" muted>
+    </video>
     <div class="box-text">
-        <h2>Dragon Ball Z</h2>
+        <h2>Watchdogs Legion</h2>
         <h3>Action</h3>
         <div class="rating-download">
             <div class="rating">
@@ -382,9 +395,12 @@
 
 <!-- Box 8 -->
 <div class="box">
-    <img src="my img/Red_Dead_Redemption_II.jpg">
+    <video id="thumb" src="thumbs/unchartedthumb.mp4" 
+    loop onmouseover="this.play();" onmouseout="this.load();" 
+        poster="Covers/Unchartedcover.jpg" muted>
+    </video>
     <div class="box-text">
-        <h2>Red Dead Redemption 2</h2>
+        <h2>Uncharted</h2>
         <h3>Action</h3>
         <div class="rating-download">
             <div class="rating">
